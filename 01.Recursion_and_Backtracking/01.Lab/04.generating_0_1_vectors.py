@@ -8,7 +8,7 @@ def generate_vector(index, vector):
         generate_vector(index + 1, vector)
 
 
-n = int(input())
-vector = [0] * n
+length = int(input())
+vector = [0] * length
 generate_vector(0, vector)
 
